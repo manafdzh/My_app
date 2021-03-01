@@ -23,6 +23,8 @@ def get_html( url, params=None ):   # ф-я которая получает HTML
     r = requests.get( url, params=params)
     return r
 
+# GitHubTest
+
 
 def get_content(html):   # мейн ф-я которая ищет нужные эл-ты
     soup = BeautifulSoup(html, 'html.parser')  # обращение к методу прекрасный суп
